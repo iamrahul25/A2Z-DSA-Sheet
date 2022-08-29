@@ -9,13 +9,13 @@ public:
         //Important Condition.
         k = k%n;
         
-        //Reverse 0 to k-1 element
+        //Reverse 0 to n-k element
         reverse(nums.begin(), nums.begin()+n-k);
         
-        //Reverse k to n-1 element
+        //Reverse k to n element
         reverse(nums.end()-k, nums.end());
         
-        //Reverse 0 to n-1 element (Whole Array)
+        //Reverse 0 to n element (Whole Array)
         reverse(nums.begin(), nums.end());
         
     }
