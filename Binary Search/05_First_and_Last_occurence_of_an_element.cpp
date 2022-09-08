@@ -28,7 +28,7 @@ public:
         }
 
 
-        //For Upper Bound------------
+        //For Upper Bound-----------
         low = 0;
         high = n-1;
         mid; 
