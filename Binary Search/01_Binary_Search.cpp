@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    //Approach 2: Own Binary Search Implementation.
+    //Approach 2: Own Binary Search Implementation
     int search(vector<int> &nums, int target){
         int low = 0;
         int high = nums.size() - 1;
