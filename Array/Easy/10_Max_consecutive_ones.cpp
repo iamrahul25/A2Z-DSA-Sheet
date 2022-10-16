@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    //Time Complexity: O(N)  Space: O(1)
+    //Time Complexity: O(N)  and  Space: O(1)
     int findMaxConsecutiveOnes(vector<int>& nums) {
         
         int n = nums.size();
