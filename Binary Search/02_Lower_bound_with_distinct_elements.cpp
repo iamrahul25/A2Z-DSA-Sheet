@@ -1,6 +1,6 @@
 class Solution{
   public:
-    //Implement => Lower Bound - with distinct elements. 
+    //Implement => Lower Bound - with distinct elements. Time: O(logN)
     int findFloor(vector<long long> v, long long n, long long x){
         
         long long low = 0;
