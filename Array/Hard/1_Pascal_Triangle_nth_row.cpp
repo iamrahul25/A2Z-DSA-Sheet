@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    //Time: O(Row)   Space: O(Rows) (Best)
+    //Time: O(Row)   Space: O(Rows) (Best - Case)
     vector<int> getRow(int rowIndex) {
         
         vector<int> ans(rowIndex+1);
